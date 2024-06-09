@@ -1,0 +1,352 @@
+.img_lab {
+    background-image: url(../img/main_head.webp);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_lab div {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.img_lab div h1 {
+    padding: 10px 15px;
+    position: relative;
+    bottom: 100px;
+    color: rgb(255, 255, 255);
+    background-color: #9b9696b9;
+    border-radius: 10px;
+}
+
+.artcl_lab_introduction {
+    padding: 20px 0;
+}
+
+.lab_introduction {
+    width: 80%;
+    margin: 0 auto;
+    text-indent: 30px;
+    text-align: justify;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+@media(max-width: 991.5px) {
+    .img_lab {
+        max-height: 600px;
+    }
+
+    .img_lab div h1 {
+        bottom: 50px;
+    }
+
+    .lab_introduction {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 575.5px) {
+    .img_lab {
+        max-height: 400px;
+    }
+
+    .img_lab div h1 {
+        font-size: 20px;
+        bottom: 20px;
+    }
+
+    button.btn.btn-success {
+        font-size: 14px;
+    }
+
+    .lab_introduction {
+        font-size: 16px;
+    }
+
+    .advantages_title,
+    article h2 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 440px) {
+    .img_lab {
+        max-height: 400px;
+    }
+
+    .img_lab div h1 {
+        font-size: 16px;
+    }
+
+    button.btn.btn-success {
+        font-size: 12px;
+    }
+
+    .lab_introduction {
+        font-size: 14px;
+    }
+
+    .advantages_title {
+        font-size: 20px;
+    }
+}
+
+/* Секція  наші можливості та переваги*/
+
+.opportunities_advantages {
+    position: relative;
+    text-align: center;
+}
+
+.opportunities_advantages hr {
+    width: 90%;
+    border: 0;
+    background: none;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    z-index: -1;
+}
+
+.opportunities_advantages .advantages_title {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: white;
+}
+
+/* Що ми пропонуємо */
+
+.container_offer h2, .gallery h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box_container_offer {
+    margin-top: 30px;
+    background-color: #e4e4e4;
+    position: relative;
+    border-radius: 20px;
+}
+
+.box_container_offer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.box_container_offer section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section_courses img {
+    width: 35%;
+    min-width: 400px;
+    max-height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.section_courses:nth-child(2) img {
+    order: 1;
+}
+
+.box_courses {
+    width: 50%;
+    min-width: 400px;
+    text-align: justify;
+}
+
+.box_courses h3 {
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+
+
+
+@media(max-width: 932px) {
+
+    .box_container_offer section {
+        padding: 10px 0;
+    }
+
+    .box_container_offer section:nth-child(1) {
+        padding: 20px 0 10px 0;
+    }
+
+    .section_courses img {
+        width: 60%;
+        min-width: 200px;
+    }
+
+    .box_courses {
+        width: 60%;
+        min-width: 200px;
+    }
+
+    .section_courses:nth-child(2) img {
+        order: 0;
+    }
+}
+
+
+@media(max-width: 660px) {
+    .box_courses h3 {
+        font-size: 20px;
+    }
+
+    .box_courses {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 500px) {
+    .section_courses img {
+        width: 80%;
+        min-width: 200px;
+    }
+
+    .box_courses {
+        width: 80%;
+        min-width: 200px;
+    }
+}
+
+@media(max-width: 575.5px) {
+    .opportunities_advantages hr {
+        top: 0px;
+    }
+
+    article h2 {
+        font-size: 26px;
+    }
+
+    .box_courses h3 {
+        font-size: 18px;
+    }
+
+    .box_courses {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 440px) {
+    .opportunities_advantages hr {
+        top: -3px;
+    }
+
+    .opportunities_advantages .advantages_title {
+        padding: 0 10px;
+    }
+
+    article h2 {
+        font-size: 24px;
+    }
+
+    .box_courses h3 {
+        font-size: 16px;
+    }
+}
+
+/* Стилі таблиці */
+
+.timetable_head {
+    text-align: center;
+    font-size: 20pt;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+table {
+    margin: 15px auto 0 auto;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+thead {
+    height: 35px;
+    font-size: 16px;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+thead th {
+    padding: 0 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #9b9696;
+}
+
+tbody {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+tbody td {
+    border: 1px solid #e4e4e4;
+}
+
+tbody td:nth-child(1) {
+    border-left: 1px solid #9b9696;
+}
+
+tbody td:nth-child(2) {
+    border-right: 1px solid #9b9696;
+}
+
+tbody tr:nth-child(7) td {
+    border-bottom: 1px solid #9b9696;
+}
+
+tbody .weekend {
+    font-weight: 600;
+}
+
+tbody .weekend td:nth-child(2) {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media(max-width: 660px) {
+    h2.timetable_head {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    thead {
+        font-size: 14px;
+    }
+
+    tbody {
+        font-size: 14px;
+    }
+}

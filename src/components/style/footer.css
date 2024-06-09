@@ -1,0 +1,46 @@
+iframe {
+    margin-top: 10px;
+    width: 60%;
+    height: max-content;
+    background-color: #f9f9f9;
+    border: 3px solid #f9ce58;
+    border-radius: 10px;
+}
+
+footer h3 {
+    margin-top: 20px;
+}
+
+footer a {
+    height: 20px;
+    font-size: 15px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffffff8c;
+}
+
+footer a:hover {
+    color: whitesmoke;
+}
+
+@media (max-width: 767.5px) {
+    iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.5px) {
+    footer {
+        padding: 5px 20px;
+    }
+}
+
+@media (max-width: 330px) {
+    footer h3 {
+        font-size: 18px;
+    }
+
+    footer a {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,68 @@
+.img_heder{
+    height: max-content;
+}
+
+.logo-name {
+    margin: 0;
+    margin-left: 15px;
+    text-align: center;
+}
+
+@media (max-width: 767.5px) {
+    .img_heder{
+        width: 55px;
+        height: 55px;
+    }
+
+    .logo-name {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 440px) {
+    .img_heder {
+        width: 48px;
+        height: 48px;
+    }
+
+    .logo-name {
+        font-size: 16px;
+    }
+
+    button.navbar-toggler.collapsed,
+    span.navbar-toggler-icon {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 400px) {
+    .img_heder{
+        width: 45px;
+        height: 45px;
+    }
+
+    .logo-name {
+        font-size: 14px;
+    }
+
+    button.navbar-toggler.collapsed,
+    span.navbar-toggler-icon {
+        transform: scale(0.85);
+    }
+}
+
+@media (max-width: 380px) {
+    .img_heder{
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-name {
+        font-size: 12px;
+    }
+
+    button.navbar-toggler.collapsed,
+    span.navbar-toggler-icon {
+        transform: scale(0.8);
+    }
+}

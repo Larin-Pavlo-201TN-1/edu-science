@@ -1,0 +1,357 @@
+.equipment_header {
+    margin-top: 100px;
+}
+
+.equipment_header h2 {
+    font-size: 35px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.equipment_header p {
+    margin: 20px auto 0 auto;
+    width: 80%;
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box_equipment_img {
+    padding: 30px;
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgba(55, 55, 55, 0.709);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_equipment_img h3,
+.cart h4 {
+    color: #fff;
+}
+
+
+.box_equipment_img h3,
+.advatagesUsing h3,
+.cart h4 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.box_cart {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.cart {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.cart_center {
+    overflow: hidden;
+    position: relative;
+    padding: calc(100%-10px) 0 0 0;
+    width: 100%;
+    height: 300px;
+    border: 5px solid #ffdca79d;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.cart .target {
+    margin: 10px auto 0 auto;
+    width: 90%;
+    font-size: 22px;
+}
+
+.cart_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cart_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cart_text {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: 1s;
+    background: rgba(46, 45, 45, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart_center:hover .cart_text {
+    left: 0;
+}
+
+.cart h3 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transition: 1s;
+}
+
+.cart_center:hover #target {
+    display: none;
+    opacity: 1;
+}
+
+.cart_text h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+}
+
+.cart_text h4::after {
+    content: "";
+    display: block;
+    margin: 15px 0;
+    width: 100%;
+    height: 5px;
+    border-top: 2px solid #e2d9ce;
+    border-bottom: 2px solid #e2d9ce;
+}
+
+.cart_text p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|EB+Garamond);
+
+.older {
+    list-style: none;
+    margin: 20px auto;
+    width: 50%;
+    counter-reset: li;
+    padding: 0;
+}
+
+.older span {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.older li {
+    border-bottom: dashed 1px #006699;
+    margin-top: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    padding: 5px;
+}
+
+.older p {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+    display: block;
+    line-height: 30px;
+    color: #3A3A3A;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+
+.older p:before {
+    display: inline-block;
+    content: counter(li);
+    counter-increment: li;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border: solid 1px #dedede;
+    margin-right: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.1) inset;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
+    -webkit-transition: .4s linear;
+    transition: .4s linear;
+}
+
+.older p:hover:before {
+    color: #D72F2C;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media(max-width:1199.5px) {
+    .older {
+        list-style: none;
+        margin: 20px auto;
+        width: 80%;
+        counter-reset: li;
+    }
+
+    .cart_text h4 {
+        font-size: 20px;
+    }
+
+    .cart_text p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1100px) {
+    .cart {
+        width: 45%;
+    }
+
+    .cart_center {
+        height: 250px;
+    }
+}
+
+@media(max-width:991.5px) {
+    .equipment_header h2 {
+        font-size: 30px;
+    }
+
+    .equipment_header p {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .box_equipment_img {
+        padding: 20px;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .box_equipment_img h3,
+    .advatagesUsing h3 {
+        font-size: 26px;
+    }
+
+    .cart_text h4 {
+        font-size: 18px;
+    }
+
+    .cart .target {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:767.5px) {
+    .equipment_header h2 {
+        font-size: 28px;
+    }
+
+    .equipment_header p {
+        font-size: 16px;
+    }
+
+    .box_cart {
+        margin-top: 15px;
+        gap: 10px;
+        justify-content: space-evenly;
+    }
+
+    .cart_text {
+        padding: 20px;
+    }
+
+    .box_equipment_img h3,
+    .advatagesUsing h3 {
+        font-size: 24px;
+    }
+
+    .cart_text h4 {
+        font-size: 17px;
+    }
+
+    .cart .target {
+        font-size: 18px;
+    }
+
+    .older p {
+        line-height: 28px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:575.5px) {
+    .box_equipment_img {
+        padding: 20px 0;
+    }
+
+    .cart {
+        width: 80%;
+    }
+
+    .box_cart {
+        gap: 30px;
+    }
+}
+
+@media(max-width:450px) {
+    .equipment_header h2 {
+        font-size: 26px;
+    }
+
+    .equipment_header p {
+        font-size: 14px;
+    }
+
+    .cart_text {
+        padding: 15px;
+    }
+
+    .box_cart {
+        gap: 20px;
+    }
+
+    .box_equipment_img h3,
+    .advatagesUsing h3 {
+        font-size: 22px;
+    }
+
+    .cart_text h4 {
+        font-size: 16px;
+    }
+
+    .cart_center {
+        height: 200px;
+    }
+
+    .cart .target {
+        font-size: 17px;
+    }
+
+    .cart_text p {
+        font-size: 12px;
+    }
+
+    .older p {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .older p:before {
+        height: 25px;
+        width: 25px;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+}
