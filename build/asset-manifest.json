@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.93eb4c4a.css",
-    "main.js": "/static/js/main.3d67a647.js",
+    "main.css": "/static/css/main.1598d9e2.css",
+    "main.js": "/static/js/main.15cb5049.js",
     "static/media/main_head.webp": "/static/media/main_head.8101e106ec8db62ba658.webp",
     "static/media/ecologyProject.png": "/static/media/ecologyProject.13cc7a39f5566635e9a7.png",
     "static/media/openDoors.png": "/static/media/openDoors.80b1c2e8fe986e2524f1.png",
@@ -40,11 +40,11 @@
     "static/media/close.svg": "/static/media/close.c0aa6d91b3c40afc5fd282f5683d5f68.svg",
     "static/media/sl-arrow_l.svg": "/static/media/sl-arrow_l.5913ef03472cae0b89c6.svg",
     "static/media/sl-arrow_r.svg": "/static/media/sl-arrow_r.5b98bd3eefea83d3618d.svg",
-    "main.93eb4c4a.css.map": "/static/css/main.93eb4c4a.css.map",
-    "main.3d67a647.js.map": "/static/js/main.3d67a647.js.map"
+    "main.1598d9e2.css.map": "/static/css/main.1598d9e2.css.map",
+    "main.15cb5049.js.map": "/static/js/main.15cb5049.js.map"
   },
   "entrypoints": [
-    "static/css/main.93eb4c4a.css",
-    "static/js/main.3d67a647.js"
+    "static/css/main.1598d9e2.css",
+    "static/js/main.15cb5049.js"
   ]
 }

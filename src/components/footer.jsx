@@ -1,5 +1,6 @@
 import React from "react";
 import { FaHome, FaPhoneAlt, FaEnvelope, FaYoutube, FaInstagram, FaFacebook } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
 
 import "./style/footer.css"
 
@@ -26,6 +27,10 @@ const Modal = () => {
                             <div className="mt-3">
                                 <FaEnvelope className="me-2" size="20px" />
                                 <a href="mailto:vstup@nupp.edu.ua">vstup@nupp.edu.ua</a>
+                            </div>
+                            <div className="mt-3">
+                                <CgWebsite className="me-2" size="25px" />
+                                <a href="https://nupp.edu.ua/page/kafedra-kompyuternikh-ta-informatsiynikh-tekhnologiy-i-sistem.html">Сайт кафедри</a>
                             </div>
                             <div className=" row mt-3  justify-content-between align-items-center box-link-img">
                                 <a className="col-3" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><FaYoutube size="30px" /></a>
